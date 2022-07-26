@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to right top, #d7e4f6, #b5e1f0, #9adcd9, #99d4b2, #b2c687) ;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+main {
+  margin-top: -80px;
+  display: flex;
+  flex-direction: column;
+  width: min(200px, 90%);
+}
