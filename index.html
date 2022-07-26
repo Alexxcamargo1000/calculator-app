@@ -9,19 +9,25 @@
   </head>
   <body>
     <main>
-      <input type="text" name="visor" id="screen" disabled />
-      <div class="grid">
+      <input type="text" name="visor" id="screen" value="0"  />
+      <div class="calculation">
+        <div class="row">
+          <button id="radix">&radic;x</button>
+          <button id="cube">x&sup3;</button>
+          <button id="squared">x&sup2;</button>
+          <button id="divider">&divide;</button>
+        </div>
         <div class="row">
           <button id="seven">7</button>
           <button id="eight">8</button>
           <button id="nine">9</button>
-          <button id="multiplication">X</button>
+          <button id="multiplication">&times;</button>
         </div>
         <div class="row">
           <button id="four">4</button>
           <button id="five">5</button>
-          <button id="sixe">6</button>
-          <button id="minun">-</button>
+          <button id="six">6</button>
+          <button id="minus">&minus;</button>
         </div>
         <div class="row">
           <button id="one">1</button>
@@ -37,5 +43,7 @@
         </div>
       </div>
     </main>
+
+    <script src="main.js"></script>
   </body>
 </html>
